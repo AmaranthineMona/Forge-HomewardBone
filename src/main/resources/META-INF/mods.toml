@@ -4,7 +4,7 @@ license="MIT"
 #issueTrackerURL="https://github.com/AmaranthineMona/Forge-HomewardBone/issues" #optional
 [[mods]] #mandatory
 modId="homeward" #mandatory
-version="${file.jarVersion}" #mandatory Found in build.gradle
+version="1.0.0" #mandatory
 displayName="Homeward" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://github.com/AmaranthineMona/Fabric-HomewardBone" #optional
