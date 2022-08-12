@@ -1,4 +1,6 @@
 {
+    "gameplay.homeward.bonfire_wrong_dimension": "Bonfire is in another dimension",
+    "gameplay.homeward.bonfire_not_found": "Bonfire was broken",
     "item.homeward.bonfire": "Bonfire",
     "block.homeward.bonfire": "Bonfire"
 }

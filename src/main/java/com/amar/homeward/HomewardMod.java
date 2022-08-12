@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 
 import com.amar.homeward.init.BonfireInit;
+import com.amar.homeward.init.HomewardBoneInit;
 import com.mojang.logging.LogUtils;
 
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -41,6 +42,7 @@ public class HomewardMod {
 
         BonfireInit.BLOCKS.register(modEventBus);
         BonfireInit.ITEMS.register(modEventBus);
+        HomewardBoneInit.ITEMS.register((modEventBus));
 
         modEventBus.addListener(this::postInitSetup);
 
